@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotlinks Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-23 15:54-0300\n"
+"PO-Revision-Date: 2013-08-23 15:54-0300\n"
+"Last-Translator: Apiki WordPress <atendimento@apiki.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;_e;gettext_noop;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: /var/www/hotmart/wp-content/plugins/hotlinks-manager\n"
+
+#: /var/www/hotmart/wp-content/plugins/hotlinks-manager/hotlinks-manager.php:114
+msgid "Generate link"
+msgstr "Gerar link"
+
+#: /var/www/hotmart/wp-content/plugins/hotlinks-manager/hotlinks-manager.php:239
+#, php-format
+msgid "Permalinks are disabled, Hotlinks Manager requires this functionality activated. <a href=\"%s\">Activate it now.</a>"
+msgstr "Configurações de Links Permanentes desativada. Hotlinks Manager requer essa funcionalidade ativa. <a href=\"%s\">Configure agora os Links Permanentes.</a>"
+
+#~ msgid ""
+#~ "Your permalinks are disabled, the Hotlinks Manager may not work correctly!"
+#~ msgstr ""
+#~ "Seu permalink está desabilidato, Hotlinks Manager pode não funcionar "
+#~ "corretamente com esta configuração!"

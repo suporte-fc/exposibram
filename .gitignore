@@ -1,0 +1,12 @@
+wp-content/cache
+wp-content/cache/
+wp-content/logs
+wp-content/logs/
+wp-content/aiowps_backups
+wp-content/aiowps_backups/
+wp-content/w3tc-config
+wp-content/w3tc-config/
+wp-content/uploads/wp-sync-db
+wp-content/uploads/wp-sync-db/
+wp-content/debug.log
+error_log

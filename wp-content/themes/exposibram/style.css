@@ -1,0 +1,277 @@
+/*
+Theme Name: Exposibram 2019
+Theme URI: http://www.fabricadecriacao.com.br/
+Description: A child theme of Simple Bootstrap
+Author: Moringa
+Author URI: http://www.moringa.com.br/
+Version: 1.0.0
+Template: simple-bootstrap
+*/
+
+@import url("../simple-bootstrap/style.css");
+
+
+/* ajustes gerais para o simple bootstrap - ini */
+* {
+	text-rendering:optimizeLegibility;
+}
+#content-wrapper, #content-wrapper > header, #page-content, #page-content + footer, #content-wrapper > * {
+	display:block !important;
+}
+/*
+#main {
+	width:100%;
+	left:auto;
+}
+*/
+nav > .container, #page-content .container, footer .container {
+	width:1560px;
+	max-width:100%;
+}
+#page-content {
+	min-height:100%;
+	height:auto;
+}
+.block {
+	background:transparent;
+	box-shadow:none;
+}
+#main > article section img {
+	background: transparent !important;
+	border:none;
+}
+/* ajustes gerais para o simple bootstrap - fim */
+
+
+
+
+
+body {
+	font-size:18px;
+}
+.site-title {
+	background: url(cbmina.png) center center no-repeat;
+	background-size:100%;
+	width:500px;
+	height:286px;
+	color:transparent !important;
+	white-space:nowrap;
+	text-indent:100%;
+	overflow:hidden;
+	margin:auto;
+	margin-top:1.5%;
+	max-width:100%;
+}
+.navbar-brand {
+	display:none;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight:bold;
+}
+.navbar-static-top{
+	border-width: 0 0 3px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form,
+.navbar-default {
+	background:#7e9d34;
+	border-color:#e9a912;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background:#7e9d34;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background:#7e9d34;
+}
+.meta.text-muted.list-inline {
+	display:none;
+}
+
+.home article > header {
+	display:none;
+}
+
+#inner-footer {
+	background:#613d33;
+	color:white;
+}
+#inner-footer .text-center p {
+	font-size:12px;
+}
+
+table {
+	border:none;
+	border-top:1px solid white;
+	box-shadow:0 0 3px silver;
+}
+td, th {
+	border-right: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	border-left:1px solid #e6e6e6;
+	padding:5px 10px;
+}
+th:last-child, td:last-child {
+	border-right: none;
+}
+tr:last-child th, tr:last-child td {
+	border-bottom: none;
+}
+
+.titulo_tabela {
+	background-color: #613d33;
+	text-align: center;
+	color:white;
+}
+.topicos_tabela {
+	background-color: #FFC100;
+}
+.linha_par {
+	background-color: #D6D6D6;
+}
+
+
+.qtranxs-lang-menu {
+	font-size:12px;
+}
+
+#sidebar-right .textwidget {
+	text-align:center;
+}
+
+#main > article section img {
+	padding:0;
+	background:silver;
+	border-radius:2px;
+	overflow:hidden;
+}
+
+#menu-item-398 a {
+	text-shadow:0 0 3px #d8a71f;
+	background: #ffcb39;
+	border-top: 1px solid #613d33;
+	border-radius: 2px;
+	transition:0.3s background;
+}
+#menu-item-398 a:hover {
+	background: #e41f30;
+	border-radius: 2px;
+	transition:0.3s background;
+}
+
+
+.botaoinsc {
+	padding: 13px 30px;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 20px;
+	box-shadow: 0 0 5px silver;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:white;
+	background: #e41f30;
+	border-radius:5px;
+	transition:0.3s background;
+}
+.botaoinsc:hover {
+	background: #ffcb39;
+	color:white;
+	text-decoration:none;
+	text-shadow:0 0 3px #d8a71f;
+	border-radius:5px;
+	transition:0.1s background;
+}
+
+
+/* archive - ini */
+.blog #main h2 {
+	font-size:26px;
+	margin-top:0;
+}
+.blog #main h2 a, .archive #main h2 a {
+	color:black;
+}
+.umanoticia {
+	padding-bottom:40px;
+}
+.umanoticia img {
+	max-width:100%;
+	height:auto;
+}
+/* archive - fim */
+
+@media screen and (max-width: 1100px) {
+	.navbar-default .navbar-nav > li > a {
+		padding-left:10px;
+		padding-right:10px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.navbar-default .navbar-nav > li > a {
+		font-size:14px;
+		padding-left:7px;
+		padding-right:7px;
+	}
+	.navbar-default .navbar-nav > li.qtranxs-lang-menu > a {
+		font-size:12px;
+	}
+	.qtranxs-lang-menu a {
+		letter-spacing: -2px;
+		padding-left: 0 !important;
+		margin-left: -5px;
+		color: transparent !important;
+	}
+}
+
+
+@media screen and (max-width:767px) {
+	#menu-item-398 a {
+		margin:0 30px;
+		text-align:center;
+		text-shadow:0 0 3px #b78d18;
+	}
+	.qtranxs-lang-menu a {
+		text-align:center;
+		font-size:14px !important;
+		color:white !important;
+		letter-spacing:0;
+	}
+}
+
+
+@media screen and (max-width: 639px) {
+	#inner-footer .widget {
+		width:100% !important;
+		text-align:center;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.site-title {
+		height:260px;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.site-title {
+		height:200px;
+	}
+}
+
+
+
+/* Extra big for Twitter Bootstrap */
+@media screen and (min-width: 1400px) {
+	.container {
+		width:1370px;
+	}
+}
+@media screen and (min-width: 1600px) {
+	.container {
+		width:1570px;
+	}
+}
+@media screen and (min-width: 1900px) {
+	.container {
+		width:1870px;
+	}
+}

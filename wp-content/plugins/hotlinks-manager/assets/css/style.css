@@ -1,0 +1,51 @@
+.hotlink-manager{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.hotlink-manager img{
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+.hotlink-manager label{
+	display: block;
+	margin-top: 10px;
+}
+.hotlink-manager input[type="text"],
+.hotlink-manager input[type="submit"]{
+	height: 30px;
+	border-radius: 3px;
+	margin: 0;
+	padding: 0 5px;
+	float: left;
+	-webkit-transition: linear .2s;
+	-moz-transition: linear .2s;
+	-ms-transition: linear .2s;
+	-o-transition: linear .2s;
+	transition: linear .2s;
+}
+.hotlink-manager input[type="text"]{
+	background: #f8f8f8;
+	border: 1px solid #d7d7d7;
+	box-shadow: 0 0 5px #FFF inset;
+	width: 80%;
+}
+.hotlink-manager input[type="text"]:hover,
+.hotlink-manager input[type="text"]:focus{
+	background: #efefef;
+	border-color: #c5c5c5;
+}
+.hotlink-manager input[type="submit"]{
+	margin-left: 10px;
+	background: #231f20;
+	box-shadow: 0 0 10px #5e5759 inset;
+	border: 1px solid #000;
+	color: #FFF;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.hotlink-manager input[type="submit"]:hover{
+	background: #f22b2b;
+	color: #FFF;
+	box-shadow: 0 0 30px #ba2025 inset;
+	border-color: #a11317;
+}

@@ -1,0 +1,27 @@
+/*
+ Theme Name:   Fábrica de Criação
+ Theme URI:    http://fabricadecriacao.com.br/
+ Description:  Descrição sobre o tema ser exclusivo ou não
+ Author:       Nomes dos desenvolvedores e designers
+ Author URI:   http://fabricadecriacao.com.br
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License: GPL
+ License URI: http://www.gnu.org/copyleft/gpl.html
+ Text Domain:  fct
+*/
+
+@import "css/fonts.css";
+
+@import "../twentyseventeen/style.css";
+
+/* modulos */
+@import "css/cabecalho-e-menus.css";
+@import "css/rodape.css";
+@import "css/conteudo.css";
+@import "css/formulario-e-cta.css";
+@import "css/mensagens-e-modais.css";
+
+/* desenvolvedores, se necessario */
+
+
